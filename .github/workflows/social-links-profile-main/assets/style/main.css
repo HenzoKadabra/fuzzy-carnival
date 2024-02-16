@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1rem;
+  }
+
+  /* Add your CSS here */
+ 
+  
+  .container {
+    background-color: #1f1f1f; /* Set the background color of the container */
+    padding: 20px; /* Add padding as needed */
+    border-radius: 15px;
+}
+    body{
+      background-color: #141414;
+      color: cadetblue;
+      padding: 35%;
+      text-align: center;
+    }
+  /* Example styles for the rounded image */
+.rounded-image {
+  border-radius: 50%; /* Set border-radius to 50% for a circular shape */
+  width: 100px; /* Set the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+  body h1{
+    
+    color:#FFFFFF;
+  }
+    body h2 {
+      
+      font-size: medium;
+      color:#B1C379;
+      
+    }
+    h3{
+      
+      font-size: small;
+      color:#A9A9A9;
+    }
+    
+  
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(1fr); /* Adjust the number of columns as needed */
+  gap: 15px; /* Adjust the gap between grid items */
+  padding:auto;
+  
+}
+
+.grid-item {
+  background-color: #333333; /* Set your desired background color */
+  padding: 20px;
+ 
+  text-align: center;
+  color: #fff; /* Set text color to white or any contrasting color */
+  text-decoration: none; /* Remove underline from links */
+  display: flexbox; /* Make links behave like block elements */
+  flex-direction: row;
+  border-radius: 15px;
+
+}
+
+.grid-item:hover {
+  background-color:greenyellow; /* Set a different background color on hover */
+  color: black;
+}
+
+    
+    
+    
+    
+  
+  
+    
